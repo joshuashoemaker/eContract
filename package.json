@@ -1,0 +1,26 @@
+{
+  "name": "econtract",
+  "version": "1.0.0",
+  "description": "Web app to create electronic contracts with ease. Can create contracts with Markdown that will be converted to HTML. A signtature with mouse or touch will be able to be captured. All data is stored in MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joshuashoemaker/econtract.git"
+  },
+  "author": "Joshua Shoemaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuashoemaker/econtract/issues"
+  },
+  "homepage": "https://github.com/joshuashoemaker/econtract#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.5"
+  }
+}
