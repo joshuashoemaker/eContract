@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //Connect to Remote Database
-if(mongoose.connect('mongodb://jshoemakerdev:Thenewera1@ds141697.mlab.com:41697/econtract')){
+if(mongoose.connect('link to your databse here')){
     console.log('Connected to Remote Database');
 }
 else{
